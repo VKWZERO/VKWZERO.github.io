@@ -1,14 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>XXX项目 on 哈牛魔</title><link>https://vkwzero.github.io/tags/xxx%E9%A1%B9%E7%9B%AE/</link><description>Recent content in XXX项目 on 哈牛魔</description><generator>Hugo -- 0.151.0</generator><language>zh-cn</language><lastBuildDate>Wed, 15 Oct 2025 13:30:00 +0200</lastBuildDate><atom:link href="https://vkwzero.github.io/tags/xxx%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>第一周学习进度汇报</title><link>https://vkwzero.github.io/posts/the-new-note/</link><pubDate>Wed, 15 Oct 2025 13:30:00 +0200</pubDate><guid>https://vkwzero.github.io/posts/the-new-note/</guid><description>&lt;h2 id="本周完成内容"&gt;本周完成内容&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>XXX项目 on 哈牛魔</title>
+    <link>http://localhost:1313/tags/xxx%E9%A1%B9%E7%9B%AE/</link>
+    <description>Recent content in XXX项目 on 哈牛魔</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 15 Oct 2025 13:30:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xxx%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一周学习进度汇报</title>
+      <link>http://localhost:1313/posts/the-new-note/</link>
+      <pubDate>Wed, 15 Oct 2025 13:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/the-new-note/</guid>
+      <description>&lt;h2 id=&#34;本周完成内容&#34;&gt;本周完成内容&lt;/h2&gt;
 &lt;p&gt;这里是你汇报的正文部分，你可以自由地使用 Markdown 语法。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;我完成了实验 A 的数据预处理工作。&lt;/li&gt;
 &lt;li&gt;我阅读了导师推荐的论文《Attention Is All You Need》。&lt;/li&gt;
 &lt;li&gt;搭建了这个基于 Hugo 和 GitHub 的博客用于学习记录。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="遇到的问题"&gt;遇到的问题&lt;/h2&gt;
+&lt;h2 id=&#34;遇到的问题&#34;&gt;遇到的问题&lt;/h2&gt;
 &lt;p&gt;在配置 Hugo 主题时，遇到了 &lt;code&gt;_config.yml&lt;/code&gt; 和 &lt;code&gt;hugo.toml&lt;/code&gt; 的格式差异问题，通过查阅官方文档解决了。&lt;/p&gt;
-&lt;h2 id="下一步计划"&gt;下一步计划&lt;/h2&gt;
+&lt;h2 id=&#34;下一步计划&#34;&gt;下一步计划&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;完成实验 A 的模型训练。&lt;/li&gt;
 &lt;li&gt;输出第二篇论文的精读笔记。&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
