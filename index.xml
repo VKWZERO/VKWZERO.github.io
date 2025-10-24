@@ -1,1 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R41nyHydr4nge4</title><link>https://vkwzero.github.io/</link><description>Recent content from R41nyHydr4nge4</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate/><atom:link href="https://vkwzero.github.io/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R41nyHydr4nge4</title><link>https://vkwzero.github.io/</link><description>Recent content from R41nyHydr4nge4</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Wed, 15 Oct 2025 12:30:00 +0800</lastBuildDate><atom:link href="https://vkwzero.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Set the Neovim</title><link>https://vkwzero.github.io/post/%E9%85%8D%E7%BD%AEneovim/</link><pubDate>Wed, 15 Oct 2025 12:30:00 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://vkwzero.github.io/post/%E9%85%8D%E7%BD%AEneovim/</guid><description>
+<![CDATA[<h1>Set the Neovim</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <p><del>Firstly</del> Begin by installing neovim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">sudo pacman -S neovim
+</span></span></code></pre></div><p>Use the <code>.lua</code> to conigure <em>NeoVim</em></p>
+<blockquote>
+<p>can use the <code>.vim</code> to configure <em>NeoVim</em> too.</p>
+</blockquote>
+<h2 id="set-the-config-path-of-nvim">
+<a class="header-anchor" href="#set-the-config-path-of-nvim"></a>
+Set the config path of nvim
+</h2><p>In the linux system, the <code>nvim</code> config directory local in the <code>~/.config/nvim</code>. This PATH also called <code>runtime path</code> , <em>NeoVim</em> read the <code>~/.config/nvim/init.lua</code> by default.</p>
+<p>In theory, all the config things can be placed in this <code>.lua</code>, but not a good idea.</p>
+        
+        <hr><p>Published on 2025-10-15 at <a href='https://vkwzero.github.io/'>R41nyHydr4nge4</a>, last modified on 2025-10-15</p>]]></description><category>configuration</category></item><item><title>Hello World</title><link>https://vkwzero.github.io/post/hello/</link><pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://vkwzero.github.io/post/hello/</guid><description>
+<![CDATA[<h1>Hello World</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <p>💘 博麗 霊夢 💘</p>
+        
+        <hr><p>Published on 2023-03-15 at <a href='https://vkwzero.github.io/'>R41nyHydr4nge4</a>, last modified on 2023-03-15</p>]]></description></item><item><title/><link>https://vkwzero.github.io/post/%E9%85%8D%E7%BD%AEfirefox%E9%9A%90%E8%97%8F%E6%A0%87%E7%AD%BE%E6%A0%8F%E5%9C%B0%E5%9D%80%E6%A0%8F%E4%B9%A6%E7%AD%BE%E6%A0%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://vkwzero.github.io/post/%E9%85%8D%E7%BD%AEfirefox%E9%9A%90%E8%97%8F%E6%A0%87%E7%AD%BE%E6%A0%8F%E5%9C%B0%E5%9D%80%E6%A0%8F%E4%B9%A6%E7%AD%BE%E6%A0%8F/</guid><description>
+<![CDATA[<h1></h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <h1 id="configure--the-firefox-to-hide-tab-bar-address-bar-adn-bookmark-bar">
+<a class="header-anchor" href="#configure--the-firefox-to-hide-tab-bar-address-bar-adn-bookmark-bar"></a>
+Configure  the firefox to hide TAB bar, address bar adn bookmark bar
+</h1><h2 id="enable-css-support">
+<a class="header-anchor" href="#enable-css-support"></a>
+Enable CSS support
+</h2><ol>
+<li>Type &ldquo;about: config&rdquo; in the <em>Firefox</em> address bar and then press the <code>Enter</code> key</li>
+<li>Accept the risk and move on</li>
+<li>Search <code>toolkit.legacyUserProfileCustomizations.stylesheets</code></li>
+<li>Make sure its value is set to <code>true</code>.</li>
+</ol>
+<h2 id="find-and-create-the-css-file">
+<a class="header-anchor" href="#find-and-create-the-css-file"></a>
+Find and create the CSS file
+</h2><ol>
+<li>Type &ldquo;about: support&rdquo; in the <em>Firefox</em> and press <code>Enter</code>.</li>
+<li>Find the line &ldquo;Profile Folder&rdquo; and open it</li>
+<li>Check if there is a folder named <code>chrome</code>. if not ,create it.</li>
+<li>Create a file <code>userChrome.css</code> including the following code.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* --- 默认隐藏 标签栏、地址栏、书签栏 --- */</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">TabsToolbar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">nav-bar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">PersonalToolbar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c">/* 使用 max-height 来实现平滑的“滑出”效果，而不是突然消失 */</span>
+</span></span><span class="line"><span class="cl">  <span class="k">max-height</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">opacity</span><span class="p">:</span> <span class="mi">0</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="c">/* 动画效果 */</span><span class="err">而不是突然消失</span> <span class="err">*/</span>
+</span></span><span class="line"><span class="cl">  <span class="k">max-height</span><span class="p">:</span> <span class="mi">0</span><span class="kt">px</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">opacity</span><span class="p">:</span> <span class="mi">0</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">overflow</span><span class="p">:</span> <span class="kc">hidden</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="c">/* 动画效果 */</span>
+</span></span><span class="line"><span class="cl">  <span class="k">transition</span><span class="p">:</span> <span class="k">max-height</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease-out</span><span class="p">,</span> <span class="k">opacity</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease-out</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* --- 鼠标悬停在顶部时，显示所有工具栏 --- */</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">TabsToolbar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">nav-bar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="err">​￼</span><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">PersonalToolbar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c">/* 100px 足够高，能容纳所有工具栏 */</span>
+</span></span><span class="line"><span class="cl">  <span class="k">max-height</span><span class="p">:</span> <span class="mi">100</span><span class="kt">px</span> <span class="cp">!important</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">opacity</span><span class="p">:</span> <span class="mi">1</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="c">/* 动画效果 */</span>
+</span></span><span class="line"><span class="cl">  <span class="k">transition</span><span class="p">:</span> <span class="k">max-height</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease-in</span><span class="p">,</span> <span class="k">opacity</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease-in</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">transition</span><span class="o">:</span> <span class="nt">max-height</span> <span class="nt">0</span><span class="p">.</span><span class="nc">15s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">opacity</span> <span class="nt">0</span><span class="p">.</span><span class="nc">15s</span> <span class="nt">ease-out</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="err">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">/* --- 鼠标悬停在顶部时，显示所有工具栏 --- */</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">TabsToolbar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">nav-bar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">PersonalToolbar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c">/* 100px 足够高，能容纳所有工具栏 */</span>
+</span></span><span class="line"><span class="cl">  <span class="k">max-height</span><span class="p">:</span> <span class="mi">100</span><span class="kt">px</span> <span class="cp">!important</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">  <span class="k">opacity</span><span class="p">:</span> <span class="mi">1</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">  <span class="c">/* 动画效果 */</span>
+</span></span><span class="line"><span class="cl">  <span class="k">transition</span><span class="p">:</span> <span class="k">max-height</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease-in</span><span class="p">,</span> <span class="k">opacity</span> <span class="mf">0.15</span><span class="kt">s</span> <span class="kc">ease-in</span> <span class="cp">!important</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h2 id="explanation">
+<a class="header-anchor" href="#explanation"></a>
+Explanation
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* --- 默认隐藏 标签栏、地址栏、书签栏 --- */</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">TabsToolbar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">nav-bar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">PersonalToolbar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c">/* ... */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li>These three lines are &ldquo;selectors&rdquo;. It tells <em>Firefox</em>: &ldquo;select these three elements: <code>#TabsToolbar</code> (TAB bar), <code>#nav-bar</code> (address bar), <code>#PersonalToolbar</code> (bookmark bar)&rdquo;</li>
+<li>This selector has no conditions (such as <code>:hover</code>), so it defines what these toolbars look like by default.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* 使用 max-height 来实现平滑的“滑出”效果，而不是突然消失 */</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">max-height</span><span class="o">:</span> <span class="nt">0px</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span></code></pre></div><ul>
+<li>Force (<code>!important</code>) the &ldquo;maximum height&rdquo; of these toolbars to 0 pixel.</li>
+<li>This is the core to achieving the &ldquo;folding&rdquo; effect. It tells the browser that this element can only be up to 0 pixels high at most, thereby &ldquo;flattening (压扁)&rdquo; it to disappear in the vertical direction.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">opacity</span><span class="o">:</span> <span class="nt">0</span> <span class="o">!</span><span class="nt">important</span>
+</span></span></code></pre></div><ul>
+<li>Force the &ldquo;Opacity (不透明度)&rdquo; of the toolbar to be set to 0 (completely transparent 完全透明).</li>
+<li>Make it completely invisible. This works in conjunction with <code>max-height:0</code> to ensure that elements fade out while folding.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">overflow</span><span class="o">:</span> <span class="nt">hidden</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span></code></pre></div><ul>
+<li>Forc the &ldquo;overflowing content(溢出内容)&rdquo; to be &ldquo;hidden&rdquo;</li>
+<li>Even if the height of an element is 0, the content inside it (such as labels and buttons) is actually still there. The function of this line of code is to cut all content that exceeds the height of 0 pixels, so that they are not displayed.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-CSS" data-lang="CSS"><span class="line"><span class="cl"><span class="c">/* 动画效果 */</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">transition</span><span class="o">:</span> <span class="nt">max-height</span> <span class="nt">0</span><span class="p">.</span><span class="nc">15s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">opacity</span> <span class="nt">0</span><span class="p">.</span><span class="nc">15s</span> <span class="nt">ease-out</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span></code></pre></div><ul>
+<li>Set a  &ldquo;transition animation (过渡动画)&rdquo; for the <code>max-height</code> and <code>opacity properties</code>.</li>
+<li>This line of code tells <em>Firefox</em> : &ldquo;When you need to hide the toobar (that is, when you change from &lsquo;displayed&rsquo; back to this&rsquo;hidden&rsquo; state), don&rsquo;t do it immediately&rdquo;.</li>
+<li><code>max-height 0.15s ease-out</code> : within 0.15 seconds, smoothly fold uo the height (<code>ease-out</code> means the animation starts quickly and ends slowly).</li>
+<li><code>opacity 0.15s ease-out</code>: Meanwile, smoothly turning it transparent within 0.15 secconds.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* --- 鼠标悬停在顶部时，显示所有工具栏 --- */</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">TabsToolbar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">nav-bar</span><span class="o">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">navigator-toolbox</span><span class="p">:</span><span class="nd">hover</span> <span class="p">#</span><span class="nn">PersonalToolbar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c">/* ... */</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li><code>#navigator-toolbox</code>: This is the entire top area that includes all toobars.</li>
+<li><code>#navigator-toolbox:hover</code> when the mouse hovering (<code>:hover</code>) this entire top area.</li>
+<li>When the mouse moves to the top area, select all the toolbars.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* 100px 足够高，能容纳所有工具栏 */</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">max-height</span><span class="o">:</span> <span class="nt">100px</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span></code></pre></div><ul>
+<li>Force the &ldquo;max-height&rdquo; of the toolbar to be set to 100 pixels.</li>
+<li>This will &ldquo;release&rdquo; the height limit. The element will expand from 0px to the actual height of its content (as long as it does not exceed 100px, 100px is just a large enough safety value).</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">opacity</span><span class="o">:</span> <span class="nt">1</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span></code></pre></div><ul>
+<li>Force the &ldquo;opacity&rdquo; to be set to <code>1</code> (100%) completely opaque (完全不透明)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="c">/* 动画效果 */</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">transition</span><span class="o">:</span> <span class="nt">max-height</span> <span class="nt">0</span><span class="p">.</span><span class="nc">15s</span> <span class="nt">ease-in</span><span class="o">,</span> <span class="nt">opacity</span> <span class="nt">0</span><span class="p">.</span><span class="nc">15s</span> <span class="nt">ease-in</span> <span class="o">!</span><span class="nt">important</span><span class="o">;</span>
+</span></span></code></pre></div><ul>
+<li>Similarly, set transition animations for <code>max-height</code> and <code>opacity</code>.</li>
+<li><code>max-height 0.15s ease-in</code> smoothly expand the height from 0px to 100px within 0.15 seconds (<code>ease-in</code> means the animation starts slowly and ends quickly).</li>
+</ul>
+<h2 id="can-it-be-turned-on-and-off-via-a-shortcut-key">
+<a class="header-anchor" href="#can-it-be-turned-on-and-off-via-a-shortcut-key"></a>
+Can it be turned on and off via a shortcut key?
+</h2><p><em><strong>You can&rsquo;t creat a &ldquo;real-time (实时)&rdquo; switch button or shortcut key for the code in use <code>userChrome.css</code>.</strong></em></p>
+        
+        <hr><p>Published on 0001-01-01 at <a href='https://vkwzero.github.io/'>R41nyHydr4nge4</a>, last modified on 0001-01-01</p>]]></description></item></channel></rss>

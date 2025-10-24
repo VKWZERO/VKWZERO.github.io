@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on R41nyHydr4nge4</title><link>https://vkwzero.github.io/tags/code/</link><description>Recent content from R41nyHydr4nge4</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate/><atom:link href="https://vkwzero.github.io/tags/code/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on R41nyHydr4nge4</title><link>https://vkwzero.github.io/tags/code/</link><description>Recent content from R41nyHydr4nge4</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Wed, 15 Oct 2025 12:30:00 +0800</lastBuildDate><atom:link href="https://vkwzero.github.io/tags/code/index.xml" rel="self" type="application/rss+xml"/><item><title>Set the Neovim</title><link>https://vkwzero.github.io/post/%E9%85%8D%E7%BD%AEneovim/</link><pubDate>Wed, 15 Oct 2025 12:30:00 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://vkwzero.github.io/post/%E9%85%8D%E7%BD%AEneovim/</guid><description>
+<![CDATA[<h1>Set the Neovim</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <p><del>Firstly</del> Begin by installing neovim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">sudo pacman -S neovim
+</span></span></code></pre></div><p>Use the <code>.lua</code> to conigure <em>NeoVim</em></p>
+<blockquote>
+<p>can use the <code>.vim</code> to configure <em>NeoVim</em> too.</p>
+</blockquote>
+<h2 id="set-the-config-path-of-nvim">
+<a class="header-anchor" href="#set-the-config-path-of-nvim"></a>
+Set the config path of nvim
+</h2><p>In the linux system, the <code>nvim</code> config directory local in the <code>~/.config/nvim</code>. This PATH also called <code>runtime path</code> , <em>NeoVim</em> read the <code>~/.config/nvim/init.lua</code> by default.</p>
+<p>In theory, all the config things can be placed in this <code>.lua</code>, but not a good idea.</p>
+        
+        <hr><p>Published on 2025-10-15 at <a href='https://vkwzero.github.io/'>R41nyHydr4nge4</a>, last modified on 2025-10-15</p>]]></description><category>configuration</category></item></channel></rss>
